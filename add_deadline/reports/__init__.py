@@ -1,1 +1,0 @@
-# Este archivo inicializa el módulo de informes. Puede importar informes específicos si es necesario.
