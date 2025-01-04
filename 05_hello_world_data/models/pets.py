@@ -9,4 +9,3 @@ class pets(models.Model):
     type = fields.Selection([('small', 'Small'),
                             ('medium', 'Medium'), 
                             ('big', 'Big')], string='Type', default='small', required=True)
-    
