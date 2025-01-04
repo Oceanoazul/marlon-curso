@@ -1,0 +1,10 @@
+<odoo>
+    <template id="custom_delivery_document" inherit_id="stock.report_delivery_document">
+    <xpath expr="//table[@class='table table-sm']" position="before">
+    <t t-foreach="docs" t-as="doc">
+        <p>Información adicional: <t t-esc="doc.date_deadline"/></p>
+    </t>
+    </xpath>
+</template>
+
+</odoo>
